@@ -1,0 +1,53 @@
+body{
+    font-family: 'Hina Mincho', serif;
+}
+
+.btn-success{
+    border-radius: 20px;
+}
+
+#filter_button{
+    background-color: darkorange;
+  width: 100px;
+  height: 60px;
+  font-size: 20px;
+}
+
+#filter_button:hover{
+    background-color: red;
+     animation-name:example ;
+     animation-duration: 5s;
+     animation-iteration-count:infinite ;
+}
+
+@keyframes example{
+    from{box-shadow: 2px 2px 40px 40px blue;}
+    to{box-shadow:4px 4px 45px 45px  greenyellow;}
+}
+
+canvas{
+    border: 5px solid darkred;
+    animation-name:canvas;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes canvas{
+    from{box-shadow:4px 4px 40px 40px red;}
+    to{box-shadow: 4px 4px 40px 40px green;}
+}
+
+#footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    align-items:center;
+    background-color: cornsilk;
+    width: 100%;
+}
+
+#footer p{
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+}
